@@ -1,5 +1,7 @@
 <html>
     <head>
+    </head>
+    <body>
         <script src="sentry.bundle.js" crossorigin="anonymous"></script>
         <script>
             Sentry.init({
@@ -11,10 +13,9 @@
                 debug: true,
             });
         </script>
-    </head>
-    <body>
+
         hello worlds
-        <button onclick="clicked()">Click me to throw error</button>
+        <button onclick="clicked()">Click me to throw error for test</button>
         <script>
             function clicked(){
                 console.log('clicked');
